@@ -1,0 +1,158 @@
+
+namespace _04昨日作业
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            //用户输入 3个数字 找到 最大的和 最小的(if  else if  else)   (不能使用 逻辑运算符 )
+
+            Console.WriteLine("请您输入第一个数字");
+            string x = Console.ReadLine();
+
+            Console.WriteLine("请您输入第二个数字");
+            string y = Console.ReadLine();
+
+            Console.WriteLine("请您输入第三个数字");
+            string z = Console.ReadLine();
+            int num1 = int.Parse(x);
+            int num2 = int.Parse(y);
+            int num3 = int.Parse(z); //此时成功拿到了 用户输入的三个数字
+
+
+            int maxValue = 0;
+            int minValue = 0;
+
+            if (num1 > num2)   // 5    3   4
+            {
+                //若代码能在这里执行，则证明  num1 > num2 是真的，则 num1大于 num2
+                if (num2 > num3)
+                {
+                    maxValue = num1;
+                    minValue = num3;
+                    //Console.WriteLine("num3最小");
+                    //Console.WriteLine("num1最大");
+                }
+                else
+                {
+                    //如果执行这里的else  num3的值  大于 num2 的值
+                    minValue = num2;
+                    //Console.WriteLine("num2最小");
+                    if (num1 > num3)
+                    {
+                        maxValue = num1;
+                        //Console.WriteLine("num1最大");
+                    }
+                    else
+                    {
+                        maxValue = num3;
+                        //Console.WriteLine("num3最大");
+                    }
+                }
+
+
+            }
+            else
+            {
+                //如果代码在这里执行，则证明 num2的值 大于 num1      //  num2 > num1  > num3
+                if (num1 > num3)
+                {
+                    maxValue = num2;
+                    minValue = num3;
+                    //Console.WriteLine("num2最大");
+                    //Console.WriteLine("num3最小");
+
+                }
+                else
+                {
+                    //如果执行这个else 则证明   num2的值 大于 num1  且 num3的值 也大于 num1
+                    minValue = num1;
+                    //Console.WriteLine("num1最小");
+                    if (num2> num3)
+                    {
+                        maxValue = num2;
+                        //Console.WriteLine("num2最大");
+                    }
+                    else
+                    {
+                        maxValue = num3;
+                        //Console.WriteLine("num3最大");
+                    }
+
+                }
+
+
+
+            }
+            Console.WriteLine($"最大值为{maxValue}");
+            Console.WriteLine($"最小值为{minValue}");
+
+
+
+
+
+
+
+
+
+
+
+
+            //if (num1 > num2)
+            //{
+            //    if (num1 > num3)
+            //    {
+            //        Console.WriteLine($"第一个数字 最大，值为{num1}");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine($"第三个数字 最大，值为{num3}");
+            //    }
+            //}
+            //else
+            //{
+            //    if (num2 > num3) 
+            //    {
+            //        Console.WriteLine($"第二个数字 最大，值为{num2}");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine($"第三个数字 最大，值为{num3}");
+            //    }
+            //}
+
+
+            // 456 789 123
+
+
+
+            //if (3 > 4)
+            //{
+            //    if (3 > 2)
+            //    {
+            //        证明3 是最大的
+            //    }
+            //    else
+            //    {
+            //        2 最大
+            //    }
+            //}
+            //else
+            //{
+            //    if (4 > 2)
+            //    {
+
+            //    }
+
+
+            //}
+
+
+
+
+            //3     4         2
+
+
+        }
+    }
+}

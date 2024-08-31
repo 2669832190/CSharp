@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.知识点补充", "1.知识点补充\1.知识点补充.csproj", "{22325FB6-D884-4E8C-93A8-A359FDA87F30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.Console类", "2.Console类\2.Console类.csproj", "{295486AA-7F32-44FA-A87D-D79FCBE3A979}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22325FB6-D884-4E8C-93A8-A359FDA87F30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22325FB6-D884-4E8C-93A8-A359FDA87F30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22325FB6-D884-4E8C-93A8-A359FDA87F30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22325FB6-D884-4E8C-93A8-A359FDA87F30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{295486AA-7F32-44FA-A87D-D79FCBE3A979}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{295486AA-7F32-44FA-A87D-D79FCBE3A979}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{295486AA-7F32-44FA-A87D-D79FCBE3A979}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{295486AA-7F32-44FA-A87D-D79FCBE3A979}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {065F105E-C84E-4429-9F60-48F00431AFFF}
+	EndGlobalSection
+EndGlobal
