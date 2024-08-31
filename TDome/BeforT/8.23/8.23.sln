@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.昨天作业", "1.昨天作业\1.昨天作业.csproj", "{54243C33-5B69-40BC-B48D-93876186C97B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.循环控制break、continue、goto", "2.循环控制break、continue、goto\2.循环控制break、continue、goto.csproj", "{CCDBEECE-C517-41E9-9D7A-D3150BCB65A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.循环嵌套", "3.循环嵌套\3.循环嵌套.csproj", "{570AC857-DCFF-47A6-AAD7-4E1EF5E45573}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.方法", "4.方法\4.方法.csproj", "{E933633B-7F0D-41B9-B738-FF66C468F800}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.方法的参数", "5.方法的参数\5.方法的参数.csproj", "{462C0326-43EA-4BC9-826D-95414C276FAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.方法参数的赋值", "6.方法参数的赋值\6.方法参数的赋值.csproj", "{69900C68-A255-43DA-AA4E-E5721A48EDCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.方法的返回值", "7.方法的返回值\7.方法的返回值.csproj", "{F7E3C01A-3730-44D6-8A0F-B38521FA8371}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54243C33-5B69-40BC-B48D-93876186C97B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54243C33-5B69-40BC-B48D-93876186C97B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54243C33-5B69-40BC-B48D-93876186C97B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54243C33-5B69-40BC-B48D-93876186C97B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCDBEECE-C517-41E9-9D7A-D3150BCB65A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCDBEECE-C517-41E9-9D7A-D3150BCB65A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCDBEECE-C517-41E9-9D7A-D3150BCB65A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCDBEECE-C517-41E9-9D7A-D3150BCB65A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{570AC857-DCFF-47A6-AAD7-4E1EF5E45573}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{570AC857-DCFF-47A6-AAD7-4E1EF5E45573}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{570AC857-DCFF-47A6-AAD7-4E1EF5E45573}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{570AC857-DCFF-47A6-AAD7-4E1EF5E45573}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E933633B-7F0D-41B9-B738-FF66C468F800}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E933633B-7F0D-41B9-B738-FF66C468F800}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E933633B-7F0D-41B9-B738-FF66C468F800}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E933633B-7F0D-41B9-B738-FF66C468F800}.Release|Any CPU.Build.0 = Release|Any CPU
+		{462C0326-43EA-4BC9-826D-95414C276FAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{462C0326-43EA-4BC9-826D-95414C276FAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{462C0326-43EA-4BC9-826D-95414C276FAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{462C0326-43EA-4BC9-826D-95414C276FAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69900C68-A255-43DA-AA4E-E5721A48EDCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69900C68-A255-43DA-AA4E-E5721A48EDCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69900C68-A255-43DA-AA4E-E5721A48EDCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69900C68-A255-43DA-AA4E-E5721A48EDCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7E3C01A-3730-44D6-8A0F-B38521FA8371}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7E3C01A-3730-44D6-8A0F-B38521FA8371}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7E3C01A-3730-44D6-8A0F-B38521FA8371}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7E3C01A-3730-44D6-8A0F-B38521FA8371}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F59EA468-4370-49D1-94C1-C50C7C62B548}
+	EndGlobalSection
+EndGlobal

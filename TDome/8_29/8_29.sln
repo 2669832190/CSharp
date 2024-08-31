@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34916.146
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "作业", "作业\作业.csproj", "{4004766A-487A-4556-ABAD-6B5377151165}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01函数重载", "01函数重载\01函数重载.csproj", "{740E4B68-2122-45FC-A5E8-F10CFDB2FBC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02递归", "02递归\02递归.csproj", "{CBCAAFB2-DBEB-4F7B-81BD-B5DC7D0012E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03交错数组", "03交错数组\03交错数组.csproj", "{782A195D-46D4-4436-9885-D9E481FEFED6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04数组的属性和方法", "04数组的属性和方法\04数组的属性和方法.csproj", "{E530208A-4E75-46B0-97F6-BF125C6D8E96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05字符串的属性和方法", "05字符串的属性和方法\05字符串的属性和方法.csproj", "{599B4AF9-26F0-4551-BFF8-AA2DA0076264}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06高阶函数", "06高阶函数\06高阶函数.csproj", "{0FC3DA4B-7B49-45E9-B808-8694D6180815}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4004766A-487A-4556-ABAD-6B5377151165}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4004766A-487A-4556-ABAD-6B5377151165}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4004766A-487A-4556-ABAD-6B5377151165}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4004766A-487A-4556-ABAD-6B5377151165}.Release|Any CPU.Build.0 = Release|Any CPU
+		{740E4B68-2122-45FC-A5E8-F10CFDB2FBC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{740E4B68-2122-45FC-A5E8-F10CFDB2FBC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{740E4B68-2122-45FC-A5E8-F10CFDB2FBC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{740E4B68-2122-45FC-A5E8-F10CFDB2FBC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBCAAFB2-DBEB-4F7B-81BD-B5DC7D0012E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBCAAFB2-DBEB-4F7B-81BD-B5DC7D0012E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBCAAFB2-DBEB-4F7B-81BD-B5DC7D0012E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBCAAFB2-DBEB-4F7B-81BD-B5DC7D0012E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{782A195D-46D4-4436-9885-D9E481FEFED6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{782A195D-46D4-4436-9885-D9E481FEFED6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{782A195D-46D4-4436-9885-D9E481FEFED6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{782A195D-46D4-4436-9885-D9E481FEFED6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E530208A-4E75-46B0-97F6-BF125C6D8E96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E530208A-4E75-46B0-97F6-BF125C6D8E96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E530208A-4E75-46B0-97F6-BF125C6D8E96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E530208A-4E75-46B0-97F6-BF125C6D8E96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{599B4AF9-26F0-4551-BFF8-AA2DA0076264}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{599B4AF9-26F0-4551-BFF8-AA2DA0076264}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{599B4AF9-26F0-4551-BFF8-AA2DA0076264}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{599B4AF9-26F0-4551-BFF8-AA2DA0076264}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FC3DA4B-7B49-45E9-B808-8694D6180815}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FC3DA4B-7B49-45E9-B808-8694D6180815}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FC3DA4B-7B49-45E9-B808-8694D6180815}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FC3DA4B-7B49-45E9-B808-8694D6180815}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9DD5241B-CB09-498C-988D-BC98E59868C4}
+	EndGlobalSection
+EndGlobal
